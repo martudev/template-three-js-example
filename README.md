@@ -1,4 +1,4 @@
-# Getting Started with Meigo-Threejs-Editor
+# Getting Started
 
 `npm install`
 
