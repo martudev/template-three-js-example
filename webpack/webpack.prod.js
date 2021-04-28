@@ -14,11 +14,6 @@ module.exports = merge(common,
             filename: 'js/[name].[contenthash].bundle.js',
             publicPath: '/',
         },
-        performance: {
-            hints: 'warning',
-            maxEntrypointSize: 512000,
-            maxAssetSize: 512000
-        },
         plugins: [
             new CleanWebpackPlugin()
         ],

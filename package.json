@@ -11,9 +11,6 @@
     "web-vitals": "1.1.1"
   },
   "scripts": {
-    "start": "node server/start.js",
-    "start-dev": "cross-env NODE_ENV=development node server/start.js",
-    "start-prod": "cross-env NODE_ENV=production node server/start.js",
     "dev": "webpack serve --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js",
     "eject": "react-scripts eject",
