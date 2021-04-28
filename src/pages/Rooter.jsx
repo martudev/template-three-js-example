@@ -3,13 +3,14 @@ import {
     Switch,
     Route
 } from "react-router-dom";
+import Index from "./Index";
 
 export default function Rooter() {
     return (
         <Router>
             <Switch>
             <Route path="*">
-                <div>Hello World!</div>
+                <Index></Index>
             </Route>
             </Switch>
         </Router>
