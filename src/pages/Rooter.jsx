@@ -3,6 +3,7 @@ import {
     Switch,
     Route
 } from "react-router-dom";
+
 import Index from "./Index";
 
 export default function Rooter() {

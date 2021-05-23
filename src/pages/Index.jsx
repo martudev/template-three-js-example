@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import '../styles/index.sass'
-import { GUI } from '../meigo/threejs/GUI'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
@@ -8,9 +7,6 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 export default function Index() {
 
     useEffect(() => {
-        // Debug
-        const meigoGui = new GUI();
-
 
         let scene = new THREE.Scene();
         scene.background = new THREE.Color("#4d4d4d");
