@@ -18,6 +18,7 @@ const WebPackHelper = require('./webpack.helper')
 const ROOT = path.join(__dirname, '../')
 
 let dotenvCommon = require('dotenv').config({path: path.join(ROOT, '.env.common')});
+if (dotenvCommon.error) throw new Error('.env.common file not found, please create it.')
 let env = undefined;
 
 if (process.env.NODE_ENV === 'production') {
